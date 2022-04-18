@@ -5,8 +5,126 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Iconscout CDN -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./variables.css">
+    <link rel="stylesheet" href="./common.css">
+    <link rel="stylesheet" href="./page23.css">
 </head>
 <body>
-    
+    <header>
+        <nav class="top-nav">
+            <div class="logo-box">
+                <div class="logo-img">
+                    <img src="./atomic.png" alt="">
+                </div>
+                <div class="logo-title">
+                    <h1>PRECYCLING</h1>
+                </div>
+            </div>
+            <div class="btn-group">
+                <a href="#search">
+                    <i class="uil uil-search"></i>
+                </a>
+                <a href="#user">
+                    <i class="uil uil-user-circle"></i>
+                </a>
+                <a href="#cart">
+                    <i class="uil uil-shopping-cart-alt"></i>
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="admin-menu">
+            <div class="title">
+                <h2>관리자 메뉴</h2>
+            </div>
+            <div class="btn-group">
+                <div class="home-btn btn-box">
+                    <a href="#home">
+                        <i class="uil uil-house-user"></i>
+                        <h2>Home</h2>
+                    </a>
+                </div>
+                <div class="users-btn btn-box">
+                    <a href="#users">
+                        <i class="uil uil-users-alt"></i>
+                        <h2>회원목록</h2>
+                    </a>
+                </div>
+                <div class="announce-btn btn-box">
+                    <a href="#announce">
+                        <i class="uil uil-megaphone"></i>
+                        <h2>공지사항</h2>
+                    </a>
+                </div>
+                <div class="qna-btn btn-box">
+                    <a href="#qna">
+                        <i class="uil uil-comment-question"></i>
+                        <h2>FAQ/QnA</h2>
+                    </a>
+                </div>
+                <div class="sns-btn btn-box">
+                    <a href="#sns">
+                        <i class="uil uil-envelope"></i>
+                        <h2>Email/SNS</h2>
+                    </a>
+                </div>
+                <div class="policy-btn btn-box">
+                    <a href="#policy">
+                        <i class="uil uil-comment-alt-edit"></i>
+                        <h2>운영방침설정</h2>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <section class="content-board">
+            <div class="title">
+                <h2>FAQ / QNA </h2>
+            </div>
+
+            <div class="board_list_menu">
+                <a href="#QNA_category" class="QNA_category">QNA 카테고리</a>
+                <a href="#FAQ_category" class="FAQ_category">FAQ 카테고리</a>
+                <a href="#QNA_list" class="QNA_list">QNA 리스트</a>
+                <a href="#FAQ_list" class="FAQ_list">FAQ 리스트</a>
+            </div>
+
+            <div class="board-category-group">
+                <div class="unreg_board_category">
+                    <p class="cate1">미등록 카테고리1</p>
+                    <p class="cate2">미등록 카데고리2</p>
+                </div>
+                
+                <div class="add_remove">
+                    <div class="add">
+                        <a href="#reg_board_category"></a>
+                        <i class="uil uil-angle-right-b"></i>
+                    </div>
+                    <div class="remove">
+                        <a href="#unreg_board_category"></a>
+                        <i class="uil uil-angle-left-b"></i>
+                    </div>
+                </div>
+
+                <div class="reg_board_category">
+                    <p class="cate1">등록 카테고리1</p>
+                    <p class="cate2">등록 카데고리2</p>
+                </div>
+            </div>
+
+            <div class="board_list_btn">
+                <a href="#add" class="add">추가</a>
+                <a href="#delete" class="delete">삭제</a>
+            </div>
+      
+        </section>
+    </main>
 </body>
 </html>

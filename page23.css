@@ -1,0 +1,236 @@
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 5rem;
+    background-color: #333;
+    padding: 0 2rem;
+    color: #eee;
+  }
+  
+  .top-nav .logo-box {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .top-nav .logo-box .logo-img{
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    height: 100%;
+  }
+  
+  .top-nav .logo-box .logo-title h1{
+    font-size: 2rem;
+    font-family: 'Varela Round', sans-serif;
+  }
+  
+  .top-nav .logo-box .logo-img img{
+    border-radius: 50%;
+    background-color: #eee;
+    height: 50%;
+  }
+  
+  .top-nav .btn-group {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+  
+  .top-nav .btn-group i {
+    padding: 0 2rem;
+    font-size: 2rem;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 5rem);
+  }
+  
+  main .admin-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+  }
+  
+  main .admin-menu .title {
+    text-align: center;
+    border-radius: 1rem;
+    width: 50%;
+    background-color: rgba(51, 51, 51, 0.15);
+    margin-bottom: 2rem;
+  }
+  
+  main .admin-menu .title h2{
+    font-size: 3rem;
+  }
+  
+  main .admin-menu .btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    padding: 0 6rem;
+  }
+  
+  main .admin-menu .btn-group .btn-box {
+    width: 50%;
+    margin-bottom: 2rem;
+  }
+  
+  main .admin-menu .btn-group .btn-box i {
+    font-size: 4rem;
+  }
+  
+  main .admin-menu .btn-group .btn-box h2 {
+    font-size: 2rem;
+  }
+  
+  .divider {
+    width: 0.2rem;
+    height: calc(100vh - 12rem);
+    background-color: #333;
+  }
+  
+  main .content-board {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+    padding: 0 5rem;
+  }
+  
+  main .content-board .title {
+    text-align: center;
+  }
+  
+  main .content-board .title h2{
+    font-size: 5rem;
+  }
+
+  main .content-board .board_list_menu {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  main .content-board .board_list_menu a {
+    display: inline-block;
+    margin-right: 10px;
+    width: 180px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 10px;
+    line-height: 55px
+  }
+  
+  main .content-board .board_list_menu a {
+    margin-right: 10px;
+    background-color: #333;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #333;
+    color: #eee;
+  }
+
+  main .content-board .board_list_menu a.FAQ_category {
+    background-color: #eee;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    color: #333;
+  }
+
+
+  main .board-category-group {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+  }
+  main .board-category-group p{
+    font-size: 2rem;
+  }
+  
+  main .board-category-group .unreg_board_category {
+    width: 40%;
+    text-align: left;
+    border: 2px solid #333;
+    margin-left: 15%;
+  }
+
+  main .board-category-group .add_remove {
+    width: 20%;
+    text-align: center;
+    
+  }
+
+  main .board-category-group .reg_board_category {
+    width: 40%;
+    text-align: left;
+    border: 2px solid #333;
+    margin-right: 15%;
+  }
+  
+  main .board-category-group .unreg_board_category :hover {
+    background-color: #333;
+    color: #eee;
+  }
+
+  main .board-category-group .reg_board_category :active {
+    background-color: #333;
+    color: #eee;
+  }
+
+  main .board-category-group .add_remove i {
+    font-size: 4rem;
+
+  }
+  main .board-category-group .add_remove .add {
+    background-color: rgb(10, 107, 218);
+    color: #eee;
+    margin: 0 40px;
+    margin-top: 50%;
+  }
+
+  main .board-category-group .add_remove .remove {
+    background-color: rgb(240, 6, 6);
+    color: #eee;
+    margin: 0 40px;
+margin-top: 50%;
+  }
+  
+  main .content-board .board_list_btn {
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 17%;
+  }
+  
+  main .content-board .board_list_btn a {
+    display: inline-block;
+    width: 80px;
+    height: 40px;
+    font-size: 25px;
+    border-radius: 10px;
+    line-height: 40px;
+  }
+  
+  main .content-board .board_list_btn a.add {
+    margin-right: 10px;
+    background-color: #333;
+    color: #eee;
+  }
+  
+  main .content-board .board_list_btn a.delete {
+    margin-right: 10px;
+    background-color: rgb(250, 7, 7);
+    color: #eee;
+  }
+  
+  
